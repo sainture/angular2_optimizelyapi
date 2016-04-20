@@ -1,5 +1,9 @@
-# angular2_optimizelyapi
-AngularJS 2 App that pulls in data from Optimizely API
+# LiveView - An AngularJS 2 app to see Live results of Optimizely experiments using its REST API
 
-This app is running using Dummy data which is stored in a local variable. The code for getting data from Optimizely REST API is implemented but not used 
-because API requires Tokens which is confidential information that I cannot paste in a github project.
+This app is created with the purpose of displaying it on a Television to see the Live results of Optimizely running experiments and that's why it doesn't offer any interaction.
+At this moment, it refreshes after every 10 sec and shows experiments for only two mock clients.
+
+Note: Since the actual Optimizely API call requires Tokens (which is a confidential information), this app is using mock data stored in a local variable.
+The code for the API calls is implemented but just not used.
+
+
